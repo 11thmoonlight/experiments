@@ -1,0 +1,51 @@
+{
+  "name": "experiments",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-numeric-separator": "^7.23.4",
+    "@babel/plugin-transform-private-methods": "^7.23.3",
+    "@majidh1/jalalidatepicker": "^0.9.4",
+    "@supabase/supabase-js": "^2.39.6",
+    "@tanstack/react-query": "^5.20.5",
+    "@tanstack/react-query-devtools": "^5.20.5",
+    "date-fns": "^3.6.0",
+    "jalaali-js": "^1.2.6",
+    "jalali-moment": "^3.3.11",
+    "react": "^18.2.0",
+    "react-advance-jalaali-datepicker": "^1.6.0",
+    "react-datepicker": "^6.6.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-multi-date-picker": "^4.4.1",
+    "react-prop-types": "^0.4.0",
+    "react-router-dom": "^6.22.0",
+    "rechart": "^0.0.1",
+    "recharts": "^2.12.2",
+    "router-dom": "^2.2.11",
+    "styled-components": "^6.1.8",
+    "zaman": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "persian-date": "^1.1.0",
+    "vite": "^5.1.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
